@@ -97,6 +97,13 @@ img {
 
 /* Elements */
 
+body{
+    background-image: url(../media/zodio-sky.png);
+    background-repeat: no-repeat;
+    background-position: 80% 1%;
+    transition: background-position 20ms ease-in;
+}
+
 .header nav {
     display: flex;
     justify-content: flex-start;
