@@ -40,14 +40,14 @@
         gtag('config', 'G-ENE3XHDJC7');
     </script>
 
-    <script src="assets/js/app.js"></script>
+    <script src="assets/js/app.js" defer></script>
 
 </head>
 
 <body>
 
-    <main>
-        <header class="header">
+    <main class="scrollc">
+        <header class="header scroll">
             <nav>
                 <a href="#" target="_self">
                     <figure class="header__logo">
@@ -73,10 +73,12 @@
                         </p>
                         <div class="cta__buttons">
                             <a href="#" role="button">
-                                <img src="assets/media/Apple-App-Store.png" alt="Download on Apple App Store" class="cta__buttons_button">
+                                <img src="assets/media/Apple-App-Store.png" alt="Download on Apple App Store"
+                                    class="cta__buttons_button">
                             </a>
                             <a href="#" role="button">
-                                <img src="assets/media/Google-Play.png" alt="Download on Google Play Store" class="cta__buttons_button">
+                                <img src="assets/media/Google-Play.png" alt="Download on Google Play Store"
+                                    class="cta__buttons_button">
                             </a>
                         </div>
                     </div>
@@ -89,60 +91,64 @@
             </div>
         </header>
 
-        <section id="discover" class="discover_section">
+
+        <section id="discover" class="discover_section scroll">
             <div class="discover__container">
                 <img src="assets/media/zodio-app-discover.png" alt="Discover Compatible Matches">
                 <h2 class="section_heading">Discover</h2>
-                <p class="section_text">We did half the work for you, now it’s your turn to choose your favorite from the most compatible matches.</p>
+                <p class="section_text">We did half the work for you, now it’s your turn to choose your favorite
+                    from the most compatible matches.</p>
             </div>
         </section>
 
 
-        <section id="connect" class="connect_section">
+        <section id="connect" class="connect_section scroll">
             <div class="connect__description">
                 <h2 class="section_heading">Connect</h2>
-                <p class="section_text">Swipe carefully on each potential match, remember most of them are to set you up for success. </p>
+                <p class="section_text">Swipe carefully on each potential match, remember most of them are to set
+                    you up for success. </p>
             </div>
             <figure class="connect_figure">
                 <img src="assets/media/zodio-app-profiles.png" alt="Swipe Profiles">
             </figure>
         </section>
 
-        <section id="match" class="connect_section">
-            <figure class="connect_figure">
-                <img src="assets/media/zodio-app-match.png" alt="Mached with Profile">
-            </figure>
+        <section id="match" class="connect_section scroll">
             <div class="connect__description">
                 <h2 class="section_heading">It's a match</h2>
                 <p class="section_text">When two compatible matches agree with our choices then its a ZODIO. </p>
             </div>
-            
+            <figure class="connect_figure">
+                <img src="assets/media/zodio-app-match.png" alt="Mached with Profile">
+            </figure>
         </section>
 
-        <section id="converse" class="connect_section">
+        <section id="converse" class="connect_section scroll">
             <div class="connect__description">
                 <h2 class="section_heading">Converse</h2>
-                <p class="section_text">Let’s chit Chat and be genuine about it. Be yourself, be respectful and open for others. </p>
+                <p class="section_text">Let’s chit Chat and be genuine about it. Be yourself, be respectful and open
+                    for others. </p>
             </div>
             <figure class="connect_figure">
                 <img src="assets/media/zodio-app-chat.png" alt="Swipe Matches">
             </figure>
         </section>
-
+        <footer class="scroll">
+            <nav>
+                <a href="#" target="_self">
+                    <figure class="footer__logo">
+                        <img class="footer__logo_img" src="assets/media/zodio-app-logo.png" alt="Zodio Logo">
+                        <figcaption>COPYRIGHT 2023 . ZODIO</figcaption>
+                    </figure>
+                    <div class="footer__links">
+                        <a href="#" class="footer_link">Terms of Use</a><a href="#" class="footer_link">Privacy
+                            Policy</a>
+                    </div>
+                </a>
+            </nav>
+        </footer>
     </main>
-    <footer>
-        <nav>
-            <a href="#" target="_self">
-                <figure class="footer__logo">
-                    <img class="footer__logo_img" src="assets/media/zodio-app-logo.png" alt="Zodio Logo">
-                    <figcaption>COPYRIGHT 2023 . ZODIO</figcaption>
-                </figure>
-                <div class="footer__links">
-                    <a href="#" class="footer_link">Terms of Use</a><a href="#" class="footer_link">Privacy Policy</a>
-                </div>
-            </a>
-        </nav>
-    </footer>
+
 </body>
 
 </html>

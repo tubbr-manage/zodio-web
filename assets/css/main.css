@@ -97,11 +97,12 @@ img {
 
 /* Elements */
 
-body{
+body {
     background-image: url(../media/zodio-sky.png);
     background-repeat: no-repeat;
-    background-position: 80% 1%;
+    background-position: 90% 1%;
     transition: background-position 20ms ease-in;
+    transition: background-size 20ms ease-in;
 }
 
 .header nav {
@@ -270,6 +271,21 @@ footer nav {
     gap: 1.6rem;
 }
 
+/* Element End */
+
+
+/* Scroll Snap */
+.scrollc {
+    scroll-snap-type: y mandatory;
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+
+.scroll {
+    scroll-snap-align: start;
+}
+
+
 @media screen and (min-width:900px) {
     .header nav {
         padding: 4rem;
@@ -290,6 +306,10 @@ footer nav {
         flex-direction: row;
     }
 
+    #match {
+        flex-direction: row-reverse;
+    }
+
     .footer__logo {
         flex-direction: row;
     }
@@ -306,5 +326,10 @@ footer nav {
 
     .footer__links {
         flex-direction: row;
+    }
+
+    .scrollc {
+        scroll-padding: 2rem;
+
     }
 }
